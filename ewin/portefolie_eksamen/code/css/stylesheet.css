@@ -1,0 +1,21 @@
+@media screen and (min-width: 800px) {
+
+    
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+
+h1, h2, h3{
+    font-family: Malayalam MN;
+
+}
+
+p{
+    font-family: Malayalam MN;
+}
+
+
+
+}

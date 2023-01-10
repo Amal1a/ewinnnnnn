@@ -1,0 +1,251 @@
+
+body{
+    background-color: #F2ECDC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.indhold{
+  margin: 16px;
+  padding: 16px;
+}
+
+
+/* -------tema boks------- */
+
+#tema2{
+  background-color: white;
+  padding: 1rem;
+  margin: 5rem;
+  border: 4px solid black;
+}
+#tema3{
+  background-color: #B5C9C7;
+  padding: 1rem;
+  margin: 5rem;
+  border: 4px solid black;
+}
+#tema4{
+  background-color: white;
+  padding: 1rem;
+  margin: 5rem;
+  border: 4px solid black;
+}
+#tema5{
+  background-color: #B5C9C7;
+  padding: 1rem;
+  margin: 5rem;
+  border: 4px solid black;
+}
+#tema6{
+  background-color: white;
+  padding: 1rem;
+  margin: 5rem;
+  border: 4px solid black;
+}
+
+/* -------nav bar------- */
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 30px;
+    background-color: #3E75D6;
+    border-radius: 90px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Malayalam MN;
+  }
+ 
+  .navbox{
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  nav{
+    width: 40%;
+
+}
+
+
+h2{
+  color:  #3E75D6;
+}
+
+/* -------billeder------- */
+
+.grid_1-1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+
+}
+
+.grid_1-1-1 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* --------Tema overskrifter--------- */
+.grid_1-1-1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 4;
+}
+
+ ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  padding: 30px;
+  background-color:#B5C9C7;
+    border-radius: 90px;
+}
+  ol li a {
+  color: white;
+  text-decoration: none;
+  font-family: Malayalam MN;
+}
+
+nav{
+  width: 40%;
+
+}
+
+a:hover{
+  color: grey;
+}
+
+
+/* -------knapper------- */
+.knapper {
+  outline-style: solid;
+  padding: 8px;
+  border-radius: 16px;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 2rem;
+  max-width: 15%;
+  background-color: #F2ECDC;
+}
+
+.knapper2 {
+  outline-style: solid;
+  padding: 8px;
+  border-radius: 16px;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 2rem;
+  max-width: 100%;
+  background-color: #F2ECDC;
+}
+.knapper3 {
+  outline-style: solid;
+  padding: 5px;
+  border-radius: 16px;
+  font-size: 19px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 2rem;
+  max-width: 100%;
+  background-color: #F2ECDC;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.grid_1-1-1-1-1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .grid_1-1-1{
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+
+    nav{
+      width: 100%;
+    }
+    
+
+    .indhold{
+      margin: 0px;
+      padding: 0px;
+    }
+    #tema2{
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem;
+      border: 4px solid black;
+    }
+    #tema3{
+      background-color: #B5C9C7;
+      padding: 1rem;
+      margin: 1rem;
+      border: 4px solid black;
+    }
+    #tema4{
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem;
+      border: 4px solid black;
+    }
+    #tema5{
+      background-color: #B5C9C7;
+      padding: 1rem;
+      margin: 1rem;
+      border: 4px solid black;
+    }
+    #tema6{
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem;
+      border: 4px solid black;
+    }
+
+    .grid_1-1-1-1-1-1{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0rem;
+    }
+
+    .knapper{
+      max-width: 40%;
+    }
+    .knapper2{
+      max-width: 40%;
+    }
+    .knapper3{
+      max-width: 40%;
+    }
+
+  }

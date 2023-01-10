@@ -1,0 +1,98 @@
+body{
+    background-color: #F2ECDC;
+}
+
+/* -------nav bar------- */
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 30px;
+    background-color: #3E75D6;
+    border-radius: 90px;
+
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Malayalam MN;
+  }
+ 
+  .navbox{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+ 
+  nav{
+    width: 40%;
+
+}
+
+/* -----billede af mig----- */
+#mig{
+  height: 793px;
+  width: 708px;
+}
+
+.grid_1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* --------Grid på uddannelse, job og frivillig arbejde */
+.grid_1-1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+
+/* ---font, icons osv--- */
+h1{
+font-size: 3rem;
+}
+
+h2{
+  color: #3E75D6;
+}
+
+.icons{
+height: 50px;
+width: 50px;
+}
+
+/* ----------p------------ */
+
+.adjust-line-height {
+  line-height: 1em;
+}
+
+
+
+/* ----------media queries------------ */
+@media screen and (max-width: 800px) {
+
+  #mig{
+    height: 493px;
+    width: 408px;
+  }
+  .grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .grid_1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem; 
+  }
+
+  nav{
+    width: 100%;
+  }
+}

@@ -1,0 +1,91 @@
+
+/* -------baggrundsbillede----------- */
+body {
+    background:url('/pictures/svg/SVG/baggrund.png') repeat center center;
+    background-size: cover;
+    background-color: #F2ECDC;
+  }
+  
+
+
+   /* -------nav bar------- */   
+  nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 30px;
+    background-color: #F2ECDC;
+    border-radius: 90px;
+  }
+
+  nav ul li a {
+    color: grey;
+    text-decoration: none;
+    font-family: Malayalam MN;
+  }
+ 
+  .navbox{
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  nav{
+    width: 40%;
+}
+a:hover{
+  color: white;
+}
+
+ /* --------forside box------------ */
+ #box {
+    background-color:#F2ECDC;
+    color: black;
+    width: 600px;
+    height: 400px;
+    padding: 70px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    color: #3E75D6;
+  }
+
+
+
+  /* -----fonts and more---------- */
+
+ h1{
+    font-size: 5rem;
+ }
+
+ h2{
+    font-size: 3rem;
+ }
+
+
+
+p{font-size: 50px;}
+  
+  
+@media (max-width: 800px) {
+   #box {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+p{
+  font-size: 2rem;
+}
+
+nav{
+  width: 100%;
+}
+
+#linktilportfolie {
+  left: 36%;
+  top: 10%;
+}
+a:hover{
+  color: white;
+}
+}
